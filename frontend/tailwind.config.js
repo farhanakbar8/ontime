@@ -14,6 +14,7 @@ module.exports = {
         grad2: "#3700B3",
         grad3: "#1A001F",
         grad4: "#C43DDA",
+        footerGrad: "#0F0F0F",
       },
       fontsize: {
         small: "0.50em",
@@ -21,5 +22,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("tailwind-scrollbar-hide")],
 };
