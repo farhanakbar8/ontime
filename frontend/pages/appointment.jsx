@@ -7,7 +7,7 @@ import Task from "../components/task";
 function Appointment() {
   return (
     <Canvas>
-      <Header page="Appointments" />
+      <Header page="Schedules" />
       <div className="mt-20 mx-5 text-white">
         <Task
           type="Submission"
@@ -36,7 +36,7 @@ function Appointment() {
           reminder="off"
         />
       </div>
-      <Footer page="appointment" />
+      <Footer page="Schedules" />
     </Canvas>
   );
 }
