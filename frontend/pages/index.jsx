@@ -7,7 +7,12 @@ export default function Home() {
     <CanvasLanding>
       <div className="w-full h-96 -mt-10 bg-gradient-to-br from-grad1 to-grad2 rounded-2xl opacity-60 skew-y-12"></div>
       <div className="absolute top-5">
-        <Image src="/images/Saly-22.png" width="341" height="341" />
+        <Image
+          src="/images/Saly-22.png"
+          width="341"
+          height="341"
+          alt="Main Illustration"
+        />
       </div>
       <div className="text-white text-2xl pt-2 pl-5">
         <h1 className="font-black">On Time</h1>
@@ -22,8 +27,13 @@ export default function Home() {
         <h3 className="text-white text-sm">Get Started</h3>
       </div>
       <div className="flex justify-center mt-5">
-        <button className="h-8 w-36 bg-gradient-to-r from-grad4 to-grad1 rounded-full text-white hover:opacity-80 transition duration-300 flex justify-center items-center">
-          <Image src="/images/logo/google.png" width="68" height="22.9" />
+        <button className="h-8 w-36 bg-gradient-to-r from-grad4 to-grad1 rounded-md text-white hover:opacity-80 transition duration-300 flex justify-center items-center">
+          <Image
+            src="/images/logo/google.png"
+            width="68"
+            height="22.9"
+            alt="Google Button"
+          />
         </button>
       </div>
     </CanvasLanding>
