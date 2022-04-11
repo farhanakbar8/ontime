@@ -21,19 +21,9 @@ function Appointment() {
           type="Meeting"
           title="RPL/GDC"
           date="19 PM, 22 January"
+          color="none"
           reminder="off"
-        />
-        <Task
-          type="Class"
-          title="Statistic"
-          date="2 PM, 23 January"
-          reminder="off"
-        />
-        <Task
-          type="Class"
-          title="Statistic"
-          date="2 PM, 23 January"
-          reminder="off"
+          deadline={true}
         />
       </div>
       <Footer page="Schedules" />
