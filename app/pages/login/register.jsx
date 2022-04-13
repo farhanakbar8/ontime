@@ -9,6 +9,13 @@ function Register() {
         <h2>Register</h2>
       </div>
       <form className="text-white mx-5 mt-14 flex flex-col gap-1">
+      <label className="font-light text-sm">Name</label>
+        <input
+          className="border-2 border-transparent bg-stone-800 opacity-75 h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none placeholder-white w-full"
+          type="text"
+          name="search"
+          placeholder="Name"
+        />
         <label className="font-light text-sm">Username</label>
         <input
           className="border-2 border-transparent bg-stone-800 opacity-75 h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none placeholder-white w-full"
